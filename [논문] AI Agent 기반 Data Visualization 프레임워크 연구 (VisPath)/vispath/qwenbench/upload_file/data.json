@@ -1,0 +1,16 @@
+[{
+    "product_type": "A",
+    "purchase_time": "12am",
+    "purchase_location": "Beijing"
+},
+{
+    "product_type": "B",
+    "purchase_time": "11am",
+    "purchase_location": "Beijing"
+},
+{
+    "product_type": "A",
+    "purchase_time": "12am",
+    "purchase_location": "Shanghai"
+}
+]

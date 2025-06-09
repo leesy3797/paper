@@ -1,0 +1,51 @@
+{
+    "matplotbench_vispath3": {
+        "Total Data Experiment": 99,
+        "Average Executable Score": 57.99999999999999,
+        "Average Code Score": 83.53448275862068,
+        "Average Plot Score": 47.758620689655174,
+        "Execution Time": 0
+    },
+    "matplotbench_vispath2": {
+        "Total Data Experiment": 100,
+        "Average Executable Score": 60.0,
+        "Average Code Score": 87.0,
+        "Average Plot Score": 46.53333333333333,
+        "Execution Time": 0
+    },
+    "matplotbench_vispath4": {
+        "Total Data Experiment": 100,
+        "Average Executable Score": 57.99999999999999,
+        "Average Code Score": 89.22413793103448,
+        "Average Plot Score": 52.12068965517241,
+        "Execution Time": 0
+    },
+    "matplotbench_vispath5": {
+        "Total Data Experiment": 100,
+        "Average Executable Score": 69.0,
+        "Average Code Score": 85.33333333333333,
+        "Average Plot Score": 52.507246376811594,
+        "Execution Time": 581.801929473877
+    },
+    "matplotbench_vispath6": {
+        "Total Data Experiment": 100,
+        "Average Executable Score": 67.0,
+        "Average Code Score": 85.6268656716418,
+        "Average Plot Score": 49.776119402985074,
+        "Execution Time": 134.26945233345032
+    },
+    "matplotbench_vispath7": {
+        "Total Data Experiment": 100,
+        "Average Executable Score": 60.0,
+        "Average Code Score": 86.75,
+        "Average Plot Score": 51.916666666666664,
+        "Execution Time": 114.38938188552856
+    },
+    "matplotbench_vispath8": {
+        "Total Data Experiment": 100,
+        "Average Executable Score": 64.0,
+        "Average Code Score": 86.203125,
+        "Average Plot Score": 51.84375,
+        "Execution Time": 108.54834842681885
+    }
+}

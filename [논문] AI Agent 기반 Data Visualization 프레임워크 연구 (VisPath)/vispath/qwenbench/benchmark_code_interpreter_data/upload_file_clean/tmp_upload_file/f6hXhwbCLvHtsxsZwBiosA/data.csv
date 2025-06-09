@@ -1,0 +1,11 @@
+x,y,xerr,yerr,lolims,uplims,xlolims,xuplims
+0.5,0.6065306597126334,0.1,0.2,False,False,False,False
+1.0,0.36787944117144233,0.1,0.2,False,True,False,True
+1.5,0.22313016014842982,0.1,0.2,True,False,True,False
+2.0,0.1353352832366127,0.1,0.2,False,False,False,False
+2.5,0.0820849986238988,0.1,0.2,True,False,True,False
+3.0,0.049787068367863944,0.1,0.2,False,True,False,True
+3.5,0.0301973834223185,0.1,0.2,False,False,False,False
+4.0,0.01831563888873418,0.1,0.2,False,False,False,False
+4.5,0.011108996538242306,0.1,0.2,True,False,True,False
+5.0,0.006737946999085467,0.1,0.2,False,True,False,True

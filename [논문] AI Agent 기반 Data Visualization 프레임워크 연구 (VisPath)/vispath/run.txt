@@ -1,0 +1,79 @@
+#########################################
+#### MatplotBench / gpt-4o-mini #### 
+#########################################
+# Baseline Models
+python matplotbench/evaluation/eval_batch.py --benchmark=matplotbench --baseline=zeroshot --model=gpt-4o-mini
+python matplotbench/evaluation/eval_batch.py --benchmark=matplotbench --baseline=cot --model=gpt-4o-mini
+python matplotbench/evaluation/eval_batch.py --benchmark=matplotbench --baseline=chat2vis --model=gpt-4o-mini
+python matplotbench/evaluation/eval_batch.py --benchmark=matplotbench --baseline=matplotagent --model=gpt-4o-mini
+
+# VisPath Models
+python matplotbench/evaluation/eval_batch.py --benchmark=matplotbench --baseline=vispathsimple --model=gpt-4o-mini
+python matplotbench/evaluation/eval_batch.py --benchmark=matplotbench --baseline=vispath --model=gpt-4o-mini
+python matplotbench/evaluation/eval_batch.py --benchmark=matplotbench --baseline=vispath2 --model=gpt-4o-mini
+python matplotbench/evaluation/eval_batch.py --benchmark=matplotbench --baseline=vispath3 --model=gpt-4o-mini
+python matplotbench/evaluation/eval_batch.py --benchmark=matplotbench --baseline=vispath4 --model=gpt-4o-mini
+python matplotbench/evaluation/eval_batch.py --benchmark=matplotbench --baseline=vispath5 --model=gpt-4o-mini
+python matplotbench/evaluation/eval_batch.py --benchmark=matplotbench --baseline=vispath6 --model=gpt-4o-mini
+python matplotbench/evaluation/eval_batch.py --benchmark=matplotbench --baseline=vispath7 --model=gpt-4o-mini
+python matplotbench/evaluation/eval_batch.py --benchmark=matplotbench --baseline=vispath8 --model=gpt-4o-mini
+
+#########################################
+#### MatplotBench / gemini-2.0-flash ####
+######################################### 
+# Baseline Models
+python matplotbench/evaluation/eval_batch.py --benchmark=matplotbench --baseline=zeroshot --model=gemini-2.0-flash
+python matplotbench/evaluation/eval_batch.py --benchmark=matplotbench --baseline=cot --model=gemini-2.0-flash
+python matplotbench/evaluation/eval_batch.py --benchmark=matplotbench --baseline=chat2vis --model=gemini-2.0-flash
+python matplotbench/evaluation/eval_batch.py --benchmark=matplotbench --baseline=matplotagent --model=gemini-2.0-flash
+
+# VisPath Models
+python matplotbench/evaluation/eval_batch.py --benchmark=matplotbench --baseline=vispathsimple --model=gemini-2.0-flash
+python matplotbench/evaluation/eval_batch.py --benchmark=matplotbench --baseline=vispath --model=gemini-2.0-flash
+python matplotbench/evaluation/eval_batch.py --benchmark=matplotbench --baseline=vispath2 --model=gemini-2.0-flash
+python matplotbench/evaluation/eval_batch.py --benchmark=matplotbench --baseline=vispath3 --model=gemini-2.0-flash
+python matplotbench/evaluation/eval_batch.py --benchmark=matplotbench --baseline=vispath4 --model=gemini-2.0-flash
+python matplotbench/evaluation/eval_batch.py --benchmark=matplotbench --baseline=vispath5 --model=gemini-2.0-flash
+python matplotbench/evaluation/eval_batch.py --benchmark=matplotbench --baseline=vispath6 --model=gemini-2.0-flash
+python matplotbench/evaluation/eval_batch.py --benchmark=matplotbench --baseline=vispath7 --model=gemini-2.0-flash
+python matplotbench/evaluation/eval_batch.py --benchmark=matplotbench --baseline=vispath8 --model=gemini-2.0-flash
+
+#########################################
+#### QwenBench / gpt-4o-mini #### 
+#########################################
+# Baseline Models
+python qwenbench/inference_and_execute_batch.py --task=visualization --model=gpt-4o-mini --baseline=zeroshot
+python qwenbench/inference_and_execute_batch.py --task=visualization --model=gpt-4o-mini --baseline=cot
+python qwenbench/inference_and_execute_batch.py --task=visualization --model=gpt-4o-mini --baseline=chat2vis
+python qwenbench/inference_and_execute_batch.py --task=visualization --model=gpt-4o-mini --baseline=matplotagent
+
+# VisPath Models
+python qwenbench/inference_and_execute_batch.py --task=visualization --model=gpt-4o-mini --baseline=vispathsimple
+python qwenbench/inference_and_execute_batch.py --task=visualization --model=gpt-4o-mini --baseline=vispath
+python qwenbench/inference_and_execute_batch.py --task=visualization --model=gpt-4o-mini --baseline=vispath2
+python qwenbench/inference_and_execute_batch.py --task=visualization --model=gpt-4o-mini --baseline=vispath3
+python qwenbench/inference_and_execute_batch.py --task=visualization --model=gpt-4o-mini --baseline=vispath4
+python qwenbench/inference_and_execute_batch.py --task=visualization --model=gpt-4o-mini --baseline=vispath5
+python qwenbench/inference_and_execute_batch.py --task=visualization --model=gpt-4o-mini --baseline=vispath6
+python qwenbench/inference_and_execute_batch.py --task=visualization --model=gpt-4o-mini --baseline=vispath7
+python qwenbench/inference_and_execute_batch.py --task=visualization --model=gpt-4o-mini --baseline=vispath8
+
+#########################################
+#### QwenBench / gemini-2.0-flash #### 
+#########################################
+# Baseline Models
+python qwenbench/inference_and_execute_batch.py --task=visualization --model=gemini-2.0-flash --baseline=zeroshot
+python qwenbench/inference_and_execute_batch.py --task=visualization --model=gemini-2.0-flash --baseline=cot
+python qwenbench/inference_and_execute_batch.py --task=visualization --model=gemini-2.0-flash --baseline=chat2vis
+python qwenbench/inference_and_execute_batch.py --task=visualization --model=gemini-2.0-flash --baseline=matplotagent
+
+# VisPath Models
+python qwenbench/inference_and_execute_batch.py --task=visualization --model=gemini-2.0-flash --baseline=vispathsimple
+python qwenbench/inference_and_execute_batch.py --task=visualization --model=gemini-2.0-flash --baseline=vispath
+python qwenbench/inference_and_execute_batch.py --task=visualization --model=gemini-2.0-flash --baseline=vispath2
+python qwenbench/inference_and_execute_batch.py --task=visualization --model=gemini-2.0-flash --baseline=vispath3
+python qwenbench/inference_and_execute_batch.py --task=visualization --model=gemini-2.0-flash --baseline=vispath4
+python qwenbench/inference_and_execute_batch.py --task=visualization --model=gemini-2.0-flash --baseline=vispath5
+python qwenbench/inference_and_execute_batch.py --task=visualization --model=gemini-2.0-flash --baseline=vispath6
+python qwenbench/inference_and_execute_batch.py --task=visualization --model=gemini-2.0-flash --baseline=vispath7
+python qwenbench/inference_and_execute_batch.py --task=visualization --model=gemini-2.0-flash --baseline=vispath8
